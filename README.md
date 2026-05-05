@@ -96,6 +96,7 @@ The trained model can predict new patient data:
 - **Output:**
   - Class Prediction → (0 = Benign, 1 = Malignant)
   - Probability Score  
+```
 
 ---
 
@@ -113,14 +114,14 @@ The trained model can predict new patient data:
 ### 1. Install dependencies
 ```bash id="md2"
 pip install -r requirements.txt
-
+```
 
 ## 🚀 How to Run Project
 
 ### 2. Run notebook
 ```bash id="mdfinal2"
 jupyter notebook notebook/breast_cancer_classification_svm.ipynb
-
+```
 
 ## 📁 Project Structure
 
@@ -132,7 +133,7 @@ notebook/
 visuals/
 requirements.txt
 README.md
-
+```
 ## 📌 Future Improvements
 
 - Apply Deep Learning models  
