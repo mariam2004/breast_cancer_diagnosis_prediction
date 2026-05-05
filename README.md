@@ -87,7 +87,7 @@ To build an accurate and reliable ML system that can assist in early detection o
 ```python
 joblib.dump(svm_model, "svm_breast_cancer_model.pkl")
 joblib.dump(scaler, "scaler.pkl")
-
+```
 ## 🔮 Prediction Example
 
 The trained model can predict new patient data:
@@ -96,7 +96,6 @@ The trained model can predict new patient data:
 - **Output:**
   - Class Prediction → (0 = Benign, 1 = Malignant)
   - Probability Score  
-```
 
 ---
 
